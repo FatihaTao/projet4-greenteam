@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "pseudo":"Le Romantique",
+        "age": "103 ans",
+        "genre": "humain",
+        "region":"Hauts de France",
+        "statut":"Alive",
+        "contact":"leromantique@love.com",
+        "photo":""
+    },
+
+    {
+        "id": 2,
+        "pseudo":"Princesse éternelle",
+        "age": "93 ans",
+        "genre": "Alien",
+        "region":"Occitanie",
+        "statut":"Dead",
+        "contact":"princesseeternelle@love.com",
+        "photo":""
+    }
+]

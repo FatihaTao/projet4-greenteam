@@ -8,7 +8,7 @@ const cors = require('cors');
 const axios = require('axios');
 
 // use a data file
-const data = require('./data.json');
+const database = require('./database.json');
 
 // use port 8000 to run server on localhost
 const port = 8000;
@@ -26,7 +26,7 @@ server.use(cors('*'));
 
 // default entry point '/' 
 server.get('/', (req, res) => {
-    res.json({ message : 'Welcome on Express/Node Server'}).status(200);
+    res.json({ message : 'Welcome on Express/Node Server 😉'}).status(200);
 });
 
 server.listen(port, () => {
