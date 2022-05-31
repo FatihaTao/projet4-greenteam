@@ -26,7 +26,7 @@ server.use(cors('*'));
 
 // default entry point '/' 
 server.get('/', (req, res) => {
-    res.json({ message : 'Welcome on Express/Node Server'}).status(200);
+    res.json({ message : 'Welcome on Express/Node Server coucou Souad!'}).status(200);
 });
 
 server.listen(port, () => {
