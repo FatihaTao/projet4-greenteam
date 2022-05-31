@@ -8,7 +8,7 @@ const cors = require('cors');
 const axios = require('axios');
 
 // use a data file
-//const data = require('./data.json');
+const data = require('./data.json');
 
 // use port 8000 to run server on localhost
 const port = 8000;
