@@ -7,7 +7,7 @@
         "region":"Hauts de France",
         "statut":"Alive",
         "contact":"leromantique@love.com",
-        "photo":""
+        "photo":"🧛‍♂️"
     },
 
     {
@@ -18,7 +18,7 @@
         "region":"Occitanie",
         "statut":"Dead",
         "contact":"princesseeternelle@love.com",
-        "photo":""
+        "photo":"https://previews.123rf.com/images/thebp/thebp1105/thebp110500051/9596363-alien-love.jpg?fj=1"
     },
     {
         "id": 3,
@@ -28,7 +28,7 @@
         "region": "Ile de France",
         "statut": "alive",
         "contact": "cherry@love.com",
-        "photo": "😎"
+        "photo": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
     },
 
     {
@@ -40,6 +40,105 @@
         "statut": "dead",
         "contact": "kingofgalaxy@love.com",
         "photo": "👽"
+    },
+
+    {
+        "id": 5,
+        "pseudo": "Beauty",
+        "age": "65",
+        "genre": "femme",
+        "region": "Nouvelle-Aquitaine",
+        "statut": "alive",
+        "contact": "beauty@love.com",
+        "photo": "👩"
+    },
+
+    {
+        "id": 6,
+        "pseudo": "Aïchalova",
+        "age": "33",
+        "genre": "Zombie",
+        "region": "Terra du sud",
+        "statut": "dead",
+        "contact": "aichalova@love.com",
+        "photo": "🧟‍♀️"
+    },
+
+    {
+        "id": 7,
+        "pseudo": "Leegocoeur",
+        "age": "57",
+        "genre": "Zombie",
+        "region": "Ile de France",
+        "statut": "dead",
+        "contact": "leegocoeur@love.com",
+        "photo": "👩‍🎓"
+    },
+
+    {
+        "id": 8,
+        "pseudo": "Nazhachou",
+        "age": "3000",
+        "genre": "Zombie",
+        "region": "Ile de France",
+        "statut": "dead",
+        "contact": "nazhachou@love.com",
+        "photo": "🧚‍♀️"
+    },
+
+    {
+        "id": 9,
+        "pseudo": "CarlaBomba",
+        "age": "2000",
+        "genre": "alien",
+        "region": "Nouvelle Aquitaine",
+        "statut": "alive",
+        "contact": "carlabomba@love.com",
+        "photo": "🧖‍♀️"
+    },
+
+    {
+        "id": 10,
+        "pseudo": "DandaraCute",
+        "age": "2000",
+        "genre": "alien",
+        "region": "Hauts de France",
+        "statut": "alive",
+        "contact": "dandaracute@love.com",
+        "photo": "🦸‍♀️"
+    },
+
+    {
+        "id": 11,
+        "pseudo": "MariaBella",
+        "age": "1000",
+        "genre": "zombie",
+        "region": "Ile de France",
+        "statut": "dead",
+        "contact": "mariabella@love.com",
+        "photo": "👩‍🎓"
+    },
+
+    {
+        "id": 12,
+        "pseudo": "Marikofire",
+        "age": "2500",
+        "genre": "alien",
+        "region": "Ile de France",
+        "statut": "dead",
+        "contact": "marikofire@love.com",
+        "photo": "🧕"
+    },
+
+    {
+        "id": 13,
+        "pseudo": "LovelySabrina",
+        "age": "3000",
+        "genre": "alien",
+        "region": "Occitanie",
+        "statut": "dead",
+        "contact": "lovelysabrina@love.com",
+        "photo": "👩‍🚀"
     }
 
 ]

@@ -81,9 +81,6 @@ server.patch('/api/items/:id', (req, res) => {
     } 
 });
     
-server.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
-});
 
 //Delete item with DELETE
 server.delete('/api/items/:id', (req, res) => {
@@ -93,4 +90,21 @@ server.delete('/api/items/:id', (req, res) => {
         database.splice(database.indexOf(item),1);
         res.send({message: "Item sucessfully deleted! 👌"}).status(200);
     } else res.send('Item not found 🤨').status(404);
+});
+
+//requêter des datas photos sur api web avec get all | read all
+server.get('api/photos', (req, res) => {
+    axios.get('https://jsonplaceholder.typicode.com/photos')
+    .then(response => res.send(response.data).status(200))
+});
+
+//requêter des datas personnages sur api web avec get all | read all
+server.get('api/character', (req, res) => {
+    axios.get('https://rickandmortyapi.com/api/character')
+    .then(response => res.send(response).status(200))
+});
+
+//git écoute tout!
+server.listen(port, () => {
+    console.log(`Server is running on port ${port}`);
 });
