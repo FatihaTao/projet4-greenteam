@@ -19,5 +19,27 @@
         "statut":"Dead",
         "contact":"princesseeternelle@love.com",
         "photo":""
+    },
+    {
+        "id": 3,
+        "pseudo": "Cherry",
+        "age": "79",
+        "genre": "homme",
+        "region": "Ile de France",
+        "statut": "alive",
+        "contact": "cherry@love.com",
+        "photo": "😎"
+    },
+
+    {
+        "id": 4,
+        "pseudo": "King of Galaxy",
+        "age": "1000",
+        "genre": "alien",
+        "region": "Saturne",
+        "statut": "dead",
+        "contact": "kingofgalaxy@love.com",
+        "photo": "👽"
     }
+
 ]
