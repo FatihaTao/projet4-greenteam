@@ -64,7 +64,7 @@ server.post('/api/items', (req, res) => {
 });
 
 // edit with PATCH
-server.get('/api/items/:id', (req, res) => {
+server.patch('/api/items/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const item = database.find(profil => profil.id ===id);
     if (item) {
