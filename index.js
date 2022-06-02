@@ -92,17 +92,40 @@ server.delete('/api/items/:id', (req, res) => {
     } else res.send('Item not found 🤨').status(404);
 });
 
-//requêter des datas photos sur api web avec get all | read all
-server.get('api/photos', (req, res) => {
-    axios.get('https://jsonplaceholder.typicode.com/photos')
-    .then(response => res.send(response.data).status(200))
+//requêter des datas users sur api web Jsonplaceholder avec get all | read all
+server.get('/api/users', async (req, res) => {
+    const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+    res.send(response.data).status(200);
 });
 
-//requêter des datas personnages sur api web avec get all | read all
-server.get('api/character', (req, res) => {
-    axios.get('https://rickandmortyapi.com/api/character')
-    .then(response => res.send(response).status(200))
+//requêter des datas personnages sur api web Rick et Morty avec get all | read all
+server.get('/api/character', async (req, res) => {
+    const response = await axios.get('https://rickandmortyapi.com/api/character');
+    res.send(response.data).status(200);
 });
+
+//requêter des datas personnages sur api web Games of Thrône avec get all | read all
+server.get('/api/characters', async (req, res) => {
+    const response = await axios.get('https://thronesapi.com/api/v2/Characters');
+    res.send(response.data).status(200);
+});
+
+//test api love calculator 
+//const options = {
+  //method: 'GET',
+ // url: 'https://love-calculator.p.rapidapi.com/getPercentage',
+ // params: {sname: 'Alice', fname: 'John'},
+ // headers: {
+    //'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com',
+    //'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY'
+  //} 
+//};
+  //axios.request(options).then(function (response) {
+	//console.log(response.data);
+//}).catch(function (error) {
+	//console.error(error);
+//});
+
 
 //git écoute tout!
 server.listen(port, () => {
