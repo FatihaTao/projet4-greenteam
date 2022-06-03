@@ -93,10 +93,10 @@ server.delete('/api/items/:id', (req, res) => {
 });
 
 //requêter des datas users sur api web Jsonplaceholder avec get all | read all
-server.get('/api/users', async (req, res) => {
-    const response = await axios.get('https://jsonplaceholder.typicode.com/users');
-    res.send(response.data).status(200);
-});
+//server.get('/api/users', async (req, res) => {
+    //const response = await axios.get('https://jsonplaceholder.typicode.com/users');
+  //  res.send(response.data).status(200);
+//});
 
 //requêter des datas personnages sur api web Rick et Morty avec get all | read all
 server.get('/api/character', async (req, res) => {
@@ -110,21 +110,7 @@ server.get('/api/characters', async (req, res) => {
     res.send(response.data).status(200);
 });
 
-//test api love calculator 
-//const options = {
-  //method: 'GET',
- // url: 'https://love-calculator.p.rapidapi.com/getPercentage',
- // params: {sname: 'Alice', fname: 'John'},
- // headers: {
-    //'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com',
-    //'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY'
-  //} 
-//};
-  //axios.request(options).then(function (response) {
-	//console.log(response.data);
-//}).catch(function (error) {
-	//console.error(error);
-//});
+
 
 
 //git écoute tout!
